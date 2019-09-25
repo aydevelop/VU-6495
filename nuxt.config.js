@@ -26,9 +26,18 @@ export default {
   modules: [
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    '@nuxtjs/proxy',
   ],
+  proxy: {
+    '/api': {
+      target: 'http://ck41486.tmweb.ru/api',
+      pathRewrite: {
+        '^/api' : '/'
+        }
+      }
+  },
   axios: {
-    baseURL: 'http://ck41486.tmweb.ru/api/',
+    baseURL: 'https://app-ssr-vuejs.herokuapp.com/api',
   },
   env: {
     imgPath: 'http://ck41486.tmweb.ru/api/img/posts/'
