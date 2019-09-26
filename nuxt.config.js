@@ -37,7 +37,7 @@ export default {
       }
   },
   axios: {
-    baseURL: 'https://app-ssr-vuejs.herokuapp.com/api',
+    baseURL: 'http://b.juwric.info/public/index.php/api',
   },
   env: {
     imgPath: 'http://ck41486.tmweb.ru/api/img/posts/'
