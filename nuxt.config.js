@@ -40,7 +40,7 @@ export default {
     baseURL: 'http://b.juwric.info/public/index.php/api',
   },
   env: {
-    imgPath: 'http://ck41486.tmweb.ru/api/img/posts/'
+    imgPath: 'http://b.juwric.info/img/posts'
   },
   build: {
     transpile: [/^element-ui/],
