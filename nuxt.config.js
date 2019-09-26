@@ -30,14 +30,14 @@ export default {
   ],
   proxy: {
     '/api': {
-      target: 'http://ck41486.tmweb.ru/api',
+      target: 'http://b.juwric.info/public/index.php/api',
       pathRewrite: {
         '^/api' : '/'
         }
       }
   },
   axios: {
-    baseURL: 'http://b.juwric.info/public/index.php/api',
+    baseURL: 'https://app-ssr-vuejs.herokuapp.com/api',
   },
   env: {
     imgPath: 'http://b.juwric.info/img/posts'
