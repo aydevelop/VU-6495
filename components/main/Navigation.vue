@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <h1>Server Side Rendering | Next.js | Blog</h1>
+        <h1>Server Side Rendering | Nuxt.js | Blog | <a href="/admin">Adminka</a></h1>
     </nav>
 </template>
 
